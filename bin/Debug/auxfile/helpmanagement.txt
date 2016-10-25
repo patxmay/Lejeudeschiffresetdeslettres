@@ -1,0 +1,17 @@
+﻿   
+    gestion de donnée
+ 
+    1 supprimer un résultat personnel
+       cliquez sur la tete de rangée que vous voulez supprimer
+
+     2  supprimer tous vos  résultat personnels
+         un message d'avertissement  apparait
+         clique sur oui/yes tous vos résultats seront supprimés
+     
+
+   Les statistiques
+    
+    tableau des résultats personnels
+    affiche tous vos résultat
+   
+ 

@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="numbertime" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">45</Value>
+    </Setting>
+    <Setting Name="lettertime" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="Nameplayer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">joueur</Value>
+    </Setting>
+    <Setting Name="Surnameplayer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">incognito</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

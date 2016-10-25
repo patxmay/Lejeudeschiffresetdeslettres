@@ -1,0 +1,41 @@
+﻿
+
+   L'éditeur des chiffres
+     
+   Permet d'effectuer les opérations arithmétiques
+
+    Sans chrono :permet de chercher sans limite de temps 
+    avec chrono    on peut  régler le chrono  entre 1 sec à  3 minutes 
+    
+    
+   tirage :tirage au sort de 6 chiffres à la fin de la distribution
+   un indicateur à  3 chiffres se met en marche et s'arrete après    quelques secondes
+   si l'option chrono est coché le timer se met en marche  
+    le temps qui reste est affiché en bas du panel du jeu en  minutes et secondes 
+    aussi dès que le timer se met en marche l'option chrono et le règlage n'est pas permis 
+ 
+    Comment effectuer les opérations 
+    on est obligé de cliquer sur un chiffre ensuite sur un  opérateur et sur un chiffre 
+    après avoir cliqué sur un chiffre soi un des 6 chiffres qui
+    n'a pas été ultilisé ou soi le résultat intermédiaire 
+    celui ci sera figé et colorié en orange
+  
+  Raz efface toutes les lignes des  opérations effectuées
+      Gomme :efface toutes les lignes à partir de la case "cliquée".                  
+   
+    
+     Jouer une partie
+
+     une partie comprend
+     8 coup de lettres et 4 coup de chiffres dans l'ordre suivant 
+     1 coup de chiffre et deux coup de lettres et ainsi de suite 
+
+      on peut régler le timer pour les chiffres avant la distribution des chiffres du premier coup de chiffre 
+      après au cours du jeu on ne plus  modifier le timer
+           
+     on peut régler le timer pour les lettres avant la distribution des lettres  du premier coup de lettre
+      après au cours du jeu on ne plus  modifier le timer
+
+      bonne chance
+    
+     

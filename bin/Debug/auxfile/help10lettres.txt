@@ -1,0 +1,5 @@
+﻿
+
+Proposer les 10 lettres
+A l'aide du clavier virtuel tapez les lettres
+le backspace permet d'effacer la derniere lettre ajoutée

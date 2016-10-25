@@ -1,0 +1,100 @@
+﻿
+      Les Lettres
+                                   Tous les mots sont acceptés y compris les verbes  conjugués
+
+       Sans chrono :permet de chercher sans limite de temps
+                                 avec chrono  on peut  régler le chrono  entre 1 sec à  3 minutes 
+                               
+       consonne : clique le bouton une consonne est distribuée
+      voyelle       : clique le bouton une voyelle est distribuée   
+          
+      règle           :  il faut choisir au moins deux voyelles
+                            pendant la distribution les lettres sont figées 
+                           au terme de la distribution si l'option chrono est coché le timer est déclenché 
+                            le temps qui reste est affiché en bas du panel du jeu en  minutes et secondes 
+ 
+     utilisation   
+                        On peut placer une lettre dans une case vide
+                        remplacer une lettre par une autre
+                        échanger entre deux lettres
+                         inserer une lettre 
+                        Pour choisir une lettre: apporter le curseur dans la lettre
+                       pour placer la lettre on peut doublecliquer dessu la lettre se placera 
+                       dans la prochaine case vide   
+                       ou soit on peut faire glisser la lettre dans la case voulu  
+                       une lettre peut toujours remplacer une autre ou s'intercaler entre deux lettres
+                              
+                          cases d'origine
+                           _________________________
+                           |  A |  B | E | T | Y | E | C |  L | M |
+                           _________________________
+
+                           cases d'essaie  vide au début
+                           _________________________
+                           |     |     |     |     |     |     |     |     |     |
+                          _________________________
+                   
+                         choisir la lettre A et la mettre dans une des cases 
+
+                           cases d'origine
+                           _________________________
+                           |   |  B | E | T | Y | E | C |  L | M |
+                           _________________________
+                           cases d'essaie
+                           _________________________
+                           |     |  A  |     |     |     |     |     |     |     |
+                          _________________________
+                   
+                          si  je veux remplacer la lettre A par une lettre des cases d'origine la lettre revient à sa case d'origine 
+                            _________________________
+                           |  A |  B |  | T | Y |   | C |  L | M |
+                           _________________________
+                           cases d'essaie
+                           _________________________
+                           |     |  E  |     |     |     |     |     |     |     |
+                          _________________________
+                   
+                          échange entre deux lettres 
+                          il suffit de mener la lettre dans la case voulue et les lettres seront  inversées
+                            cases d'essaie
+                           avant 
+                           _________________________
+                           |    |  E  |   T  |     |     |     |     |     |     |
+                          _________________________
+                           
+                              après
+                            _________________________
+                           |    |  T  |   E  |     |     |     |     |     |     |
+                          _________________________
+                   
+                   pour insérer une lettre 
+                   appuyez la barre d'espacement  pour cocher ou décocher
+                     apporter la lettre que vous voulez inserer dans la case 
+                     attention la lettre sera inseré à gauche de la case 
+                      ex 
+                           avant
+                             _________________________
+                           |    |  E  |   T  |  O  |     |     |     |     |     |
+                          _________________________
+             
+                       je veux placer la lettre  L     entre  le T  et le O 
+                       donc je vais placer la lettre L sur la case de la lettre O  ainsi la lettre L sera placé à gauche de la lettre O		
+                  annuler :  remet toutes les lettres à leurs positions d'origine              
+                      
+              le bouton "continuez    apparait seulement en cas d'une partie
+              au terme du timer si le mot formé ne se trouve pas dans le dictionnaire du logiciel un message apparait             
+              
+     Jouer une partie
+
+     une partie comprend
+     8 coup de lettres et 4 coup de chiffres dans l'ordre suivant 
+     1 coup de chiffre et deux coup de lettres et ainsi de suite 
+
+      on peut régler le timer pour les chiffres avant la distribution des chiffres du premier coup de chiffre 
+      après au cours du jeu on ne plus  modifier le timer
+           
+     on peut régler le timer pour les lettres avant la distribution des lettres  du premier coup de lettre
+      après au cours du jeu on ne plus  modifier le timer
+
+      bonne chance
+   

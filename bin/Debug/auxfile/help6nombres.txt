@@ -1,0 +1,4 @@
+﻿
+chaque nombre peut etre compris entre 1 et 999
+ dès que le bouton solution est enable les solutions ont été trouvées
+ le temps de recherche peut durer plus d'une minute

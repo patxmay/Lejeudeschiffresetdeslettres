@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5DEEFC41-9819-420E-8BC1-05327732BE92}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>DesChiffresEtDesLettres.My.MyApplication</StartupObject>
+    <RootNamespace>DesChiffresEtDesLettres</RootNamespace>
+    <AssemblyName>DesChiffresEtDesLettres</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>On</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ApplicationIcon>ICON.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DesChiffresEtDesLettres.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <PlatformTarget>x86</PlatformTarget>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DesChiffresEtDesLettres.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classhelp.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classkeyboard.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ClassScore.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classsevensegment.vb" />
+    <Compile Include="ClassVoice.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Formchoosenletter.Designer.vb">
+      <DependentUpon>Formchoosenletter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formchoosenletter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formmanagement.Designer.vb">
+      <DependentUpon>formmanagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formmanagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="db.vb" />
+    <Compile Include="Dirigepartie.vb" />
+    <Compile Include="ClassDistribution.vb" />
+    <Compile Include="Formlettres.Designer.vb">
+      <DependentUpon>Formlettres.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formlettres.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formchiffre.Designer.vb">
+      <DependentUpon>Formchiffre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formchiffre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formpreface.Designer.vb">
+      <DependentUpon>Formpreface.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formpreface.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formchoosen6number.Designer.vb">
+      <DependentUpon>Formchoosen6number.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formchoosen6number.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LettreSolution.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="score.vb" />
+    <Compile Include="MathSolution.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Classhelp.resx">
+      <DependentUpon>Classhelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassScore.resx">
+      <DependentUpon>ClassScore.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassVoice.resx">
+      <DependentUpon>ClassVoice.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formchoosenletter.resx">
+      <DependentUpon>Formchoosenletter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formmanagement.resx">
+      <DependentUpon>formmanagement.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlettres.resx">
+      <DependentUpon>Formlettres.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formchiffre.resx">
+      <DependentUpon>Formchiffre.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formpreface.resx">
+      <DependentUpon>Formpreface.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formchoosen6number.resx">
+      <DependentUpon>Formchoosen6number.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Release\auxfile\background.png" />
+    <None Include="bin\Release\auxfile\bienvenu.png" />
+    <None Include="bin\Release\auxfile\leschiffres.png" />
+    <None Include="bin\Release\auxfile\leslettres.png" />
+    <None Include="bin\Release\auxfile\choosenumber.png" />
+    <None Include="bin\Release\auxfile\choosenletters.png" />
+    <None Include="bin\Release\auxfile\manageresult.png" />
+    <None Include="bin\Release\auxfile\support.png" />
+    <None Include="bin\Release\auxfile\cloud.png" />
+    <None Include="bin\Release\auxfile\chrono.fw.png" />
+    <None Include="bin\Release\auxfile\new.fw.png" />
+    <None Include="bin\Release\auxfile\solution.fw.png" />
+    <None Include="bin\Release\auxfile\exit.fw.png" />
+    <None Include="bin\Release\auxfile\help.fw.png" />
+    <None Include="bin\Release\auxfile\menu.fw.png" />
+    <None Include="bin\Release\auxfile\listen.fw.png" />
+    <None Include="bin\Release\auxfile\numbers.fw.png" />
+    <None Include="bin\Release\auxfile\letters.fw.png" />
+    <None Include="bin\Release\auxfile\playgame.fw.png" />
+    <None Include="bin\Release\auxfile\choosennums.fw.png" />
+    <None Include="bin\Release\auxfile\chooseletters.fw.png" />
+    <None Include="bin\Release\auxfile\manage.fw.png" />
+    <None Include="bin\Release\auxfile\support.fw.png" />
+    <None Include="bin\Release\auxfile\training.fw.png" />
+    <None Include="bin\Release\auxfile\game.fw.png" />
+    <None Include="bin\Release\auxfile\chronometer.png" />
+    <None Include="bin\Release\auxfile\nochronometer.png" />
+    <None Include="bin\Release\auxfile\datamanager.fw.png" />
+    <None Include="bin\Release\auxfile\statistics.fw.png" />
+    <None Include="bin\Release\auxfile\backgroundnumbers.fw.png" />
+    <None Include="bin\Release\auxfile\2iemrnombre.fw.png" />
+    <None Include="bin\Release\auxfile\3iemrnombre.fw.png" />
+    <None Include="bin\Release\auxfile\4iemrnombre.fw.png" />
+    <None Include="bin\Release\auxfile\5iemrnombre.fw.png" />
+    <None Include="bin\Release\auxfile\6iemrnombre.fw.png" />
+    <None Include="bin\Release\auxfile\1ernombre.fw.png" />
+    <None Include="bin\Release\auxfile\findnumber.fw.png" />
+    <None Include="bin\Release\auxfile\valid.fw.png" />
+    <None Include="bin\Release\auxfile\buttonclose.fw.png" />
+    <None Include="bin\Release\auxfile\panelletters.png" />
+    <None Include="bin\Release\auxfile\abort.fw.png" />
+    <None Include="bin\Release\auxfile\save.fw.png" />
+    <None Include="bin\Release\auxfile\backgroundscore.fw.png" />
+    <None Include="bin\Release\auxfile\eraser.png" />
+    <None Include="bin\Release\auxfile\clear.png" />
+    <None Include="bin\Release\auxfile\button_black_last.png" />
+    <None Include="bin\Release\auxfile\button_black_next.png" />
+    <None Include="bin\Release\auxfile\button_black_play.png" />
+    <None Include="bin\Release\auxfile\button_black_stop.png" />
+    <None Include="bin\Release\auxfile\button_black_back.png" />
+    <None Include="bin\Release\auxfile\button_black_first.png" />
+    <None Include="bin\Release\auxfile\feuille.jpg" />
+    <None Include="bin\Release\auxfile\buttonkey.png" />
+    <None Include="bin\Release\auxfile\backspace.png" />
+    <None Include="bin\Release\auxfile\game.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Release\auxfile\ICON.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\auxfile\HelpChiffre.TXT" />
+    <None Include="bin\Debug\auxfile\preface.swf" />
+    <None Include="bin\Debug\auxfile\consonne.png" />
+    <None Include="bin\Debug\auxfile\voyelle.png" />
+    <None Include="bin\Debug\auxfile\effacer.png" />
+    <None Include="bin\Debug\auxfile\insert.png" />
+    <None Include="bin\Debug\auxfile\mult.png" />
+    <None Include="bin\Debug\auxfile\x.png" />
+    <None Include="bin\Debug\auxfile\div.png" />
+    <None Include="bin\Debug\auxfile\sub.png" />
+    <None Include="bin\Debug\auxfile\add.png" />
+    <None Include="bin\Debug\auxfile\RAZ.png" />
+    <None Include="bin\Release\auxfile\add.png" />
+    <None Include="bin\Release\auxfile\canceleraser.png" />
+    <None Include="bin\Release\auxfile\consonne.png" />
+    <None Include="bin\Release\auxfile\div.png" />
+    <None Include="bin\Release\auxfile\effacer.png" />
+    <None Include="bin\Release\auxfile\insert.png" />
+    <None Include="bin\Release\auxfile\mult.png" />
+    <None Include="bin\Release\auxfile\RAZ.png" />
+    <None Include="bin\Release\auxfile\sub.png" />
+    <None Include="bin\Release\auxfile\voyelle.png" />
+    <None Include="bin\Release\auxfile\support.fw.bmp" />
+    <None Include="bin\Debug\auxfile\3iemrnombre.fw.png" />
+    <None Include="bin\Debug\auxfile\4iemrnombre.fw.png" />
+    <None Include="bin\Debug\auxfile\5iemrnombre.fw.png" />
+    <None Include="bin\Debug\auxfile\6iemrnombre.fw.png" />
+    <None Include="bin\Debug\auxfile\abort.fw.png" />
+    <None Include="bin\Debug\auxfile\backgroundnumbers.fw.png" />
+    <None Include="bin\Debug\auxfile\backgroundscore.fw.png" />
+    <None Include="bin\Debug\auxfile\backspace.png" />
+    <None Include="bin\Debug\auxfile\button_black_back.png" />
+    <None Include="bin\Debug\auxfile\button_black_first.png" />
+    <None Include="bin\Debug\auxfile\button_black_last.png" />
+    <None Include="bin\Debug\auxfile\button_black_next.png" />
+    <None Include="bin\Debug\auxfile\button_black_play.png" />
+    <None Include="bin\Debug\auxfile\button_black_stop.png" />
+    <None Include="bin\Debug\auxfile\buttonclose.fw.png" />
+    <None Include="bin\Debug\auxfile\buttonkey.png" />
+    <None Include="bin\Debug\auxfile\canceleraser.png" />
+    <None Include="bin\Debug\auxfile\chooseletters.fw.png" />
+    <None Include="bin\Debug\auxfile\choosenletters.png" />
+    <None Include="bin\Debug\auxfile\choosennums.fw.png" />
+    <None Include="bin\Debug\auxfile\choosenumber.png" />
+    <None Include="bin\Debug\auxfile\chrono.fw.png" />
+    <None Include="bin\Debug\auxfile\chronometer.png" />
+    <None Include="bin\Debug\auxfile\clear.png" />
+    <None Include="bin\Debug\auxfile\cloud.png" />
+    <None Include="bin\Debug\auxfile\datamanager.fw.png" />
+    <None Include="bin\Debug\auxfile\eraser.png" />
+    <None Include="bin\Debug\auxfile\exit.fw.png" />
+    <None Include="bin\Debug\auxfile\findnumber.fw.png" />
+    <None Include="bin\Debug\auxfile\game.fw.png" />
+    <None Include="bin\Debug\auxfile\help.fw.png" />
+    <None Include="bin\Debug\auxfile\leschiffres.png" />
+    <None Include="bin\Debug\auxfile\leslettres.png" />
+    <None Include="bin\Debug\auxfile\letters.fw.png" />
+    <None Include="bin\Debug\auxfile\listen.fw.png" />
+    <None Include="bin\Debug\auxfile\manage.fw.png" />
+    <None Include="bin\Debug\auxfile\manageresult.png" />
+    <None Include="bin\Debug\auxfile\menu.fw.png" />
+    <None Include="bin\Debug\auxfile\new.fw.png" />
+    <None Include="bin\Debug\auxfile\nochronometer.png" />
+    <None Include="bin\Debug\auxfile\numbers.fw.png" />
+    <None Include="bin\Debug\auxfile\panelletters.png" />
+    <None Include="bin\Debug\auxfile\playgame.fw.png" />
+    <None Include="bin\Debug\auxfile\save.fw.png" />
+    <None Include="bin\Debug\auxfile\solution.fw.png" />
+    <None Include="bin\Debug\auxfile\statistics.fw.png" />
+    <None Include="bin\Debug\auxfile\support.fw.png" />
+    <None Include="bin\Debug\auxfile\support.png" />
+    <None Include="bin\Debug\auxfile\training.fw.png" />
+    <None Include="bin\Debug\auxfile\valid.fw.png" />
+    <None Include="bin\Debug\auxfile\support.fw.bmp" />
+    <None Include="bin\Debug\auxfile\ICON.ico" />
+    <None Include="bin\Debug\auxfile\feuille.jpg" />
+    <None Include="bin\Debug\auxfile\1ernombre.fw.png" />
+    <None Include="bin\Debug\auxfile\2iemrnombre.fw.png" />
+    <Content Include="ICON.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
